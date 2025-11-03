@@ -1,0 +1,44 @@
+p {
+         color: red;
+         font-size: 16px;
+         font-weight: bold;
+     }
+     html, body {
+        /* background-color: lightgreey */
+        background: linear-gradient(red,green,blue)
+        cusor:url("spon.png"), auto;
+     }
+     h1, h2 {
+        color: blue;
+        text-align: center;
+     }
+     .tulis1{
+        color: blueviolet;
+        font-size: 20px;
+        font-family: arial;
+        font-style: italic;
+     }
+     #tulis2{
+        color: green;
+        font-size: 7px;
+        font-family: poppins;
+        font-style: bold;
+     }
+
+     a{text-decoration: none;}
+      a:link { color: blue; }
+      a:visited { color: purple; }
+      a:hover { color: red; }
+      a:active { color: green; }
+
+     p::first-line {
+      font-weight: bold;
+      color: orange;
+     }
+    p::first-letter {
+      font-size: 10em;
+     }
+    
+p::first-letter {
+font-size: 2em;
+}
